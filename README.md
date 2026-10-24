@@ -1,7 +1,17 @@
 # EchoStore
 
-Electric-blue chrome Matrix app store with fisheye carousel, animated rain, keyboard/touch controls, and offline PWA shell.
+The electric-blue home of Echo apps: https://kiingecho.github.io/EchoStore/
 
-Serve this directory using GitHub Pages from main / (root). Installers belong in the apps-2026-10-23 GitHub Release, never in this source tree. EchoAI opens its existing PWA. EchoWallpaper is omitted because EchoCode covers it.
+## Store 2.0
 
-Android installers require Android; no iOS native download is claimed. Offline mode caches the store interface, not installer files or EchoAI. SHA256SUMS.txt accompanies the release.
+- Crown-and-E chrome branding and bespoke vector app logos.
+- Smooth fisheye carousel with drag, swipe, sideways trackpad scrolling, and keyboard controls.
+- Search with clear/reset controls, platform filters, and useful empty states.
+- Always-visible downloads, versions, file sizes, release/checksum links, app sharing, and installation help.
+- Responsive app collection, support link, privacy explanation, and update control.
+- Animated digital rain with reduced-motion support.
+- Installable PWA with a cached offline store interface. Installers and EchoAI need a network connection.
+
+GitHub Pages deploys from main / (root). HTML, CSS, and JavaScript require no build step. Installer assets remain in the apps-2026-10-23 GitHub Release. No signing keys or credentials belong in this repository.
+
+EchoWallpaper is omitted because EchoCode covers it. EchoAI links to its existing web app; native iOS installers are not claimed.
